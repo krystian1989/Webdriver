@@ -22,7 +22,6 @@ public class Login {
 
     }
 
-
     @Test
     public void firstTest() throws Exception {
         Thread.sleep(1000);
