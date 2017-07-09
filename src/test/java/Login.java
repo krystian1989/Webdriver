@@ -19,7 +19,6 @@ public class Login {
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("https://www.google.pl/");
-
     }
 
     @Test
