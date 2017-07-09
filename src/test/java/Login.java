@@ -26,6 +26,7 @@ public class Login {
         Thread.sleep(1000);
         driver.findElement(By.id("lst-ib")).sendKeys("Test");
         System.out.println(driver.findElement(By.id("lst-ib")).getText());
+        Thread.sleep(1000);
     }
 
     @AfterClass
